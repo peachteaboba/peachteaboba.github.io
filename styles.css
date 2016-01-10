@@ -1,0 +1,408 @@
+*{
+    font-family: 'helvetica neue', arial, verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+background-color: #F5F5F5;
+}
+#outer-wrapper{
+    width: 1200px;
+    /*outline: 1px dotted blue;*/
+    margin: 0 auto;
+}
+
+#wrapper{
+    width: 900px;
+    display: inline-block;vertical-align: top;
+    margin-right: -5px;
+}
+
+/*HEADER SECTION STYLES*/
+/***************************/
+#header{
+    /*outline: 1px dotted red;*/
+    /*margin-right: -5px;*/
+    width: 900px;
+    height: 90px;
+    text-align: center;
+    /*margin: 0 auto;*/
+    text-transform: uppercase;
+    background-color: #25292c;
+    color: white;
+    display: inline-block;vertical-align: top;
+}
+#header h1{
+    margin-top: 35px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    font-size: 1.2em;
+    display: inline-block;vertical-align: top;
+}
+#header img{
+    margin-top: 11px;
+    width:70px;
+    display: inline-block;vertical-align: top;
+}
+
+/*LEFT SIDEBAR STYLES*/
+/******************************************************/
+/******************************************************/
+/******************************************************/
+#sidebar{
+    /*outline: 1px dotted red;*/
+    width:300px;
+    display: inline-block;vertical-align: top;
+    margin-right: -5px;
+}
+
+/* gold display ********/
+#gold{
+    /*width:185px;*/
+    height:75px;
+    /*outline: 1px dotted blue;*/
+    border: 7px solid gold;
+    background-color: goldenrod;
+    text-align: center;
+}
+.gold-large{
+    margin-top: 5px;
+    /*margin-bottom: 2px;*/
+    font-weight: bolder;
+    letter-spacing: 5px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: gold;
+}
+#gold h2{
+    margin-top: 2px;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1.4em;
+    /*font-weight:300;*/
+}
+.gold-small{
+    margin-top: 1px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: gold;
+}
+.get{
+    width: 100%;
+    display: inline-block;vertical-align: top;
+}
+.get-button{
+    margin:0;
+    height:60px;
+    width:100%;
+    border: 7px solid #ff5500;
+    background-color: #ff8345;
+    font-weight:300;
+    font-size:0.9em;
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+/*DIG SECTION STYLES*/
+/***************************/
+.dig1{
+    margin-bottom: 20px;
+    width:126px;
+    height:95px;
+    background-color: #2b5b83;
+    border: 5px solid #2b5b83;
+    display: inline-block;vertical-align: top;
+    text-align: center;
+    border-radius: 5px;
+}
+.dig2{
+    margin-bottom: 20px;
+    margin-left: 3px;
+    width:126px;
+    height:95px;
+    background-color: #2b5b83;
+    border: 5px solid #2b5b83;
+    display: inline-block;vertical-align: top;
+    text-align: center;
+    border-radius: 5px;
+}
+.dig h2{
+    margin-top:8px;
+    margin-bottom:3px;
+    color: white;
+    font-weight: normal;
+    font-size: 0.7em;
+    letter-spacing: 3px;
+}
+.dig p{
+    color: white;
+    font-size: 0.6em;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.dig-form{
+    display: block;
+}
+.dig-button{
+    margin-top:5px;
+    height:37px;
+    width:100%;
+    border: 5px solid gold;
+    background-color: goldenrod;
+    font-weight:300;
+    font-size:0.65em;
+    padding:2px;
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+/* hamster shop ********/
+#buy-wrapper{
+    border: 10px solid #25292c;
+    width:280px;
+    height: 1200px;
+    display: block;
+    background-color: #25292c;
+}
+.buy-title{
+    width: 100%;
+    height:20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #4DC49A;
+    color: #25292c;
+    font-weight:bolder;
+    font-size: 0.75em;
+    letter-spacing: 5px;
+    padding-top:6px;
+    margin-bottom: 5px;
+}
+.buy2{
+    height:80px;
+    border: 5px solid #4DC49A;
+    /*text-align: center;*/
+    background-color: #F5F5F5;
+    margin-bottom: 5px;
+}
+.buy-info{
+    /*outline: 1px dotted red;*/
+    width: 181px;
+    height:80px;
+    display: inline-block;vertical-align: top;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top:5px;
+}
+.buy-info img{
+    width:25px;
+    height:25px;
+    margin-top:2px;
+    /*outline: 1px dotted red;*/
+}
+.buy-info p.black{
+    font-size:0.65em;
+    margin-bottom: 1px;
+}
+.buy-info p.blue{
+    font-size:0.65em;
+    color: #4185be;
+}
+.buy-form{
+    display: inline-block;
+}
+.buy-button{
+    margin-top: 5px;
+    height:70px;
+    width:80px;
+    border: 5px solid #ff5500;
+    background-color: #ff8345;
+    font-weight:300;
+    font-size:0.9em;
+    color: white;
+    display: inline-block;
+}
+#ham1{
+    height: 40px;
+    width: 40px;
+    display: inline-block; vertical-align: top;
+    background-image: url("images/ham1.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:0;
+}
+.ham1{
+    color: #42C97B;
+    font-weight: 500;
+    font-size:0.7em;
+    text-transform: uppercase;
+}
+#ham2{
+    height: 40px;
+    width: 40px;
+    display: inline-block; vertical-align: top;
+    background-image: url("images/ham2.gif");
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:0;
+}
+.ham2{
+    color: #C070DB;
+    font-weight: 500;
+    font-size:0.7em;
+    text-transform: uppercase;
+}
+
+/*Bottom Reset STYLES*/
+/***************************/
+.reset{
+    width: 100%;
+}
+.reset-button{
+    margin:0;
+    height:40px;
+    width:100%;
+    border: 5px solid #9E282D;
+    /*background-image: url("images/ham1.gif");*/
+    /*background-size: 80% 80%;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    background-color: #CC333B;
+    font-weight:300;
+    font-size:0.9em;
+    padding:5px;
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+
+/*SHOW SECTION STYLES*/
+/***************************/
+#show-wrapper{
+    /*margin-top:10px;*/
+    /*outline: 1px dotted red;*/
+    /*border: 5px solid #F5F5F5;*/
+    width:100%;
+    display: inline-block;vertical-align: top;
+    /*margin-right:10px;*/
+}
+.show-header{
+    width:100%;
+    height:61px;
+    background-color: #4185be;
+}
+
+
+.dig-description{
+    /*outline: 1px dotted white;*/
+    width: 185px;
+    height: 60px;
+    display: inline-block;vertical-align: top;
+    color: white;
+    font-size: 0.55em;
+    font-weight: 100;
+    background-color: #2b5b83;
+    margin-right: 2px;
+
+}
+.dig-description p{
+    margin-top:15px;
+    margin-left:10px;
+    margin-right:5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.show-ham{
+    /*outline: 1px dotted red;*/
+    padding:5px;
+    display: block;
+    background-color: #EDEDED;
+}
+.show-ham p{
+    margin-top: 3px;
+    margin-right: 10px;
+    border: 4px solid #E3E3E3;
+    background-color: white;
+    border-radius:1em;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:4px;
+    padding-bottom:5px;
+    display: inline-block;vertical-align: top;
+}
+
+
+.power{
+    width:100%;
+    height:30px;
+    background-color: #9490E8;
+}
+.power p{
+    margin-top:8px;
+    margin-left: 17px;
+    color: white;
+    font-weight: 200;
+    font-size:0.8em;
+    text-transform: uppercase;
+    display: inline-block; vertical-align: top;
+    letter-spacing: 2px;
+}
+
+
+
+/*LOG SECTION STYLES*/
+/***************************/
+.log{
+    /*margin-top: 20px;*/
+    width: 870px;
+    height: 250px;
+    min-height: 200px;
+    border: 10px solid #e3e3e3;
+    padding-top: 5px;
+    padding-left: 10px;
+    overflow: auto;
+    background-color: white;
+    text-transform: uppercase;
+
+}
+.log h6{
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #42C97B;
+}
+.log h5{
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #50A6D4;
+}
+.log p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    color: red;
+}
+.log h4{
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #CC00FF;
+}
