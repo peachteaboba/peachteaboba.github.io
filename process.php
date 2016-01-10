@@ -85,6 +85,9 @@
             array_unshift($_SESSION['log'], "<h4>Collected $collect gold from hamsters!!!&nbsp&nbsp&nbsp($time_stamp)</h4>");
         }
     }
+    if(isset($_POST['action']) && $_POST['action'] == 'play'){
+        array_unshift($_SESSION['log'], "<h3>Welcome to Hamster Gold! Hamsters cost money yo. Dig for gold first then buy your first hamster! &nbsp&nbsp&nbsp($time_stamp)</h3>");
+    }
 
 
 // reset ***************

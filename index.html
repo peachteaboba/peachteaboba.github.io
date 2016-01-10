@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hamster Gold - Landing Page</title>
+    <style>
+        *{
+            font-family: 'helvetica neue', arial, verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        body{
+            background-color: #25292c;
+        }
+        .wrapper{
+            width:800px;
+            height:620px;
+            /*outline: 1px dotted red;*/
+            margin: 0 auto;
+            padding-top: 50px;
+        }
+        .play{
+            padding:25px;
+            width:400px;
+            height: 520px;
+            /*outline: 1px dotted blue;*/
+            margin: 0 auto;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 300;
+            letter-spacing: 10px;
+            font-size: 0.8em;
+            color: white;
+            border-radius: 25px;
+            background-color: #228C80;
+            border: 5px solid #107a6e;
+        }
+        .play-hamster-gold-btn{
+            margin-top: 30px;
+            width:100%;
+            height: 50px;
+            border-radius: 25px;
+            background-color: white;
+            font-size:1.2em;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            color: #ff8345;
+            border: 5px solid #E8E8E8;
+        }
+        .play p{
+            margin-top: 10px;
+        }
+        .play img{
+            margin-top: 11px;
+            width:70px;
+            display: inline-block;vertical-align: top;
+        }
+        .info{
+            margin-top: 30px;
+            width:100%;
+            height: 220px;
+            border-radius: 25px;
+            background-color: #107a6e;
+            font-size:0.9em;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: white;
+            /*border: 5px solid #107a6e;*/
+        }
+        .info h4{
+            width: 100%;
+            margin-top: 25px;
+            margin-bottom:10px;
+            display: inline-block;vertical-align: top;
+        }
+        .info p{
+            width: 90%;
+            margin-top: 15px;
+            display: inline-block;vertical-align: top;
+            font-size:0.7em;
+            letter-spacing: 1px;
+            line-height: 15px;
+        }
+        .footer{
+            margin-top: 10px;
+            text-align: center;
+            font-size:0.7em;
+            color: #8C8C8C;
+        }
+        .footer a{
+            color: white;
+            margin-left:1px;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+<div class="play">
+    <h1>Hamster gold</h1>
+    <img src="images/gold.gif">
+    <img src="images/gold.gif">
+    <img src="images/gold.gif">
+    <p>get gold</p>
+    <p>buy hamsters</p>
+    <p>win</p>
+    <form action="process.php" method="post">
+        <input type='hidden' name='action' value='play'>
+        <button class="play-hamster-gold-btn" type="submit">play hamster gold</button>
+    </form>
+    <div class="info">
+        <h4>how to play:</h4>
+        <p>> Dig for gold in the cave or casino</p>
+        <p>> Buy hamsters with gold</p>
+        <p>> Hamsters dig for gold on their own</p>
+        <p>> Collect gold from hamsters by digging for gold, buying more hamsters or clicking to "collect gold" button</p>
+    </div>
+
+</div>
+    <p class="footer">Created by <a href="https://github.com/peachteaboba" target="_blank">Andy Feng</a></p>
+</div>
+
+
+</body>
+
