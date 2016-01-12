@@ -149,7 +149,7 @@ function numberWithCommas(x) {
                         <h3 class="ham2">cheer Ham</h3>
                         <img src="images/ham2.gif">
                         <p class="black">cost: <?=$_SESSION['price2']?> gold</p>
-                        <p class="blue">gold / second: 50</p>
+                        <p class="blue">gold / second: 100</p>
                     </div>
                     <form class="buy-form" action="process.php" method="post">
                         <input type="hidden" id="ham2p" name='value' value="">
@@ -162,7 +162,7 @@ function numberWithCommas(x) {
                         <h3 class="ham3">spin Ham</h3>
                         <img src="http://rs5.pbsrc.com/albums/y179/brianmichaelwendt/Funny/hamsterdance.gif~c200">
                         <p class="black">cost: <?=$_SESSION['price3']?> gold</p>
-                        <p class="blue">gold / second: 400</p>
+                        <p class="blue">gold / second: 700</p>
                     </div>
                     <form class="buy-form" action="process.php" method="post">
                         <input type="hidden" id="ham3p" name='value' value="">
